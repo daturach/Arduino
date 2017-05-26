@@ -5,8 +5,8 @@
 //#define OFF 0
 //#define OBEREGRENZE 361  // set upper level voltage (1.8V) 
 //#define UNTEREGRENZE 321 //set lower level voltage (1.6V)
-#define OBEREGRENZE 321  // set upper level voltage (1.6V) 
-#define UNTEREGRENZE 281 //set lower level voltage (1.4V)
+#define OBEREGRENZE 450  // set upper level voltage (2.2V) 
+#define UNTEREGRENZE 409 //set lower level voltage (2.0V)
 
 int sensorPin = A0;
 int sensorValue = 0;
